@@ -68,7 +68,6 @@ public class SensitiveParts {
 		Creds cred = null;
 		try {
 			cred = Creds.valueOf(credName);
-			this.checkPrivateParts();
 		} catch (IllegalArgumentException e) {
 			System.err.println(String.format("¯\\_(ツ)_/¯ The credential named '%s' does not exist", credName));
 		}
