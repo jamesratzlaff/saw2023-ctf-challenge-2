@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
  * @author jamesratzlaff
  * @apiNote
  * This code was created as a CTF challenge, I don't actually write code like this
+ * @since 0.0.1
  */
 
 public class SensitiveParts {
